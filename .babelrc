@@ -1,0 +1,9 @@
+//O preset abaixo irá transformar códigos recentes js e react em sintaxe
+//compatível com o navegador.
+
+//O plugin proposal do babel serve para permitir criar variaveis estáticas
+//dentro do component exemplo defaultprops ou proptypes
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+}
